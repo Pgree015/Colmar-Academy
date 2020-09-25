@@ -1,9 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 80, 80);
 }
 h1 {
     font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+    margin: 32px auto auto auto;
 }
 h3 {
     font-size: 32px;
@@ -28,7 +33,6 @@ nav a {
 .container {
     display: flex;
     background-color: rgb(231, 231, 231);
-    color: rgb(80, 80, 80);
 }
 .container2 {
     display: flex;
@@ -94,5 +98,33 @@ nav a {
     margin: 32px 24px; 
 }
 #guest {
+    background-color: rgb(231, 231, 231);
+}
+.container6 {
+    display: flex;
+    margin: auto 72px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container7 {
+    background-color: white;
+    margin: 32px 32px;
+    box-sizing: border-box;
+    width: 30%;
+}
+.container7 img {
+    width: 100%;
+}
+.container7 h3 {
+    margin: 8px 16px;
+}
+.container7 p {
+    margin: 8px 16px;
+}
+#start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(231, 231, 231);
 }
