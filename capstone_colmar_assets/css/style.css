@@ -9,6 +9,7 @@ h1 {
 h2 {
     font-size: 40px;
     margin: 32px auto auto auto;
+    text-align: center;
 }
 h3 {
     font-size: 32px;
@@ -30,9 +31,15 @@ nav a {
     padding: 0 16px;
     font-size: 24px;
 }
+main {
+    background-color: rgb(231, 231, 231);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(80, 80, 80);
+}
 .container {
     display: flex;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(180, 180, 180);
 }
 .container2 {
     display: flex;
@@ -42,7 +49,6 @@ nav a {
     margin: 0 24px;
 }
 .container3 {
-    background-color: white;
     display: flex;
 }
 .container4 {
@@ -98,7 +104,7 @@ nav a {
     margin: 32px 24px; 
 }
 #guest {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(180, 180, 180);
 }
 .container6 {
     display: flex;
@@ -126,5 +132,54 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(180, 180, 180);
+}
+#thesis {
+    display: flex;
+    flex-direction: column;
+}
+.container8 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+#thesis2 {
+    display: flex;
+}
+.container9 {
+    display: flex;
+    padding: 16px 0px;
+}
+.container9 img {
+    width: 35%;
+    height: auto;
+    margin: 0 16px;
+}
+.container9 section {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container10 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 32px 0px;
+}
+#fisma {
+    background-color: rgb(180, 180, 180);
+}
+footer {
     background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    margin: 16px 24px;
+    display: flex;
+}
+#terms {
+    padding: 0px 24px;
 }
