@@ -31,6 +31,8 @@ nav a {
     padding: 0 16px;
     font-size: 24px;
 }
+nav a img {
+    display: none;}
 main {
     background-color: rgb(231, 231, 231);
     border-bottom-width: 1px;
@@ -182,4 +184,46 @@ footer p {
 }
 #terms {
     padding: 0px 24px;
+}
+@media only screen and (max-width: 490px) {
+    nav p {display: none;}
+    nav span {display: none;}
+    nav a img {
+        display: inline;
+        width: 24px;
+        height: 24px;
+    }
+    nav {
+        justify-content: space-around;
+    }
+    .companies {
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container img {
+        width: 100%;
+        margin: 0px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .container2 h1 {
+        margin: 32px 16px;
+    }
+    .container2 h3 {
+        margin: 0 16px;
+    }
+    .container2 button {
+        width: 95%;
+        margin: 24px auto 32px auto;
+    }
+    h3 {
+        font-size: 28px;
+    }
 }
